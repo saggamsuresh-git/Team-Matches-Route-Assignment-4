@@ -1,0 +1,68 @@
+.latest-match-container-main {
+  /* width: 100%; */
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+p {
+  color: #fff;
+}
+.competing-team-logo {
+  width: 35%;
+}
+.match-over-info {
+  text-align: right;
+  font-size: 14px;
+  line-height: 20pt;
+  width: 290px;
+}
+.match-ground-info {
+  line-height: 26pt;
+  width: 200px;
+}
+.opponent-logo-container {
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-ground-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 567px) {
+  .latest-match-container-main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .match-over-info {
+    text-align: left;
+  }
+  .match-ground-logo-container {
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 2px solid #475569;
+  }
+  .opponent-team-name {
+    font-size: 16px;
+  }
+  .match-ground-info {
+    line-height: normal;
+    padding: 20px;
+  }
+  .match-over-info {
+    width: 100%;
+    margin-top: 10px;
+    line-height: normal;
+  }
+  .opponent-logo-container {
+    width: 120px;
+  }
+  .competing-team-logo {
+    width: 60px;
+  }
+}

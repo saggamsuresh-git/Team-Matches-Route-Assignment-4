@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.match-card-container {
+  background-color: black;
+  padding: 20px;
+  width: 240px;
+  height: 350px;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.competing-team-logo {
+  width: 150px;
+  height: 120px;
+}
+.red {
+  color: #e31a1a;
+}
+.green {
+  color: #18ed66;
+}
+
+@media screen and (max-width: 567px) {
+  .match-card-container {
+    width: 130px;
+    height: 290px;
+  }
+  .competing-team-logo {
+    width: 100px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
